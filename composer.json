@@ -1,0 +1,54 @@
+{
+	"name": "codekandis/accumail-entities",
+	"description": "`codekandis/accumail-entities` is a library providing interfaces, classes and enumerations for `codekandis/accumail`.",
+	"keywords": [
+		"php",
+		"library",
+		"accumail",
+		"entities",
+		"interfaces",
+		"classes",
+		"enumerations",
+		"accumulated",
+		"e-mail",
+		"distribution"
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Ramelow",
+			"email": "info@codekandis.net",
+			"homepage": "https://codekandis.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@codekandis.net",
+		"issues": "https://github.com/codekandis/accumail-entities/issues",
+		"docs": "https://github.com/codekandis/accumail-entities/README.md",
+		"source": "https://github.com/codekandis/accumail-entities/tree/master"
+	},
+	"require": {
+		"php": "^7.4"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"codekandis/phpunit": "^3"
+	},
+	"autoload": {
+		"psr-4": {
+			"CodeKandis\\AccuMailEntities\\": [
+				"src/"
+			]
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CodeKandis\\AccuMailEntities\\Tests\\": [
+				"tests/"
+			]
+		}
+	}
+}
