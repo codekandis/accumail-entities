@@ -31,7 +31,8 @@
 		"source": "https://github.com/codekandis/accumail-entities/tree/master"
 	},
 	"require": {
-		"php": "^7.4"
+		"php": "^7.4",
+		"codekandis/entities": "^0"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-master",
